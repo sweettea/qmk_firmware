@@ -35,9 +35,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             ),
 
     [_SYM] = LAYOUT(
-	xxxx, xxxx, xxxx, xxxx, xxxx, 	xxxx, xxxx, xxxx, xxxx, xxxx,
-	xxxx, xxxx, xxxx, xxxx, xxxx, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, xxxx,
-	xxxx, xxxx, xxxx, xxxx, xxxx, xxxx, xxxx, xxxx, xxxx, xxxx,
+	xxxx, xxxx, xxxx, xxxx, xxxx,	     xxxx, xxxx, xxxx, KC_DOWN, xxxx,
+	xxxx, xxxx, xxxx, xxxx, xxxx,        KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, xxxx,
+	xxxx, KC_LCTL, KC_LALT, xxxx, xxxx,  xxxx, xxxx, xxxx, xxxx, xxxx,
 				xxxx,	xxxx,		xxxx,	xxxx
     ),
 /*    [_RMOD] = LAYOUT(
