@@ -28,10 +28,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 				MO(_NUM), KC_LSFT,	MT(MOD_LCTL, KC_SPC), KC_BSPC
 	),
     [_NUM] = LAYOUT(
-        KC_1,  KC_2, KC_3,  KC_4, KC_5,                       KC_6, KC_7 , KC_8 , KC_9 ,KC_0,
-        KC_EXLM, KC_AT,KC_HASH,KC_DLR,KC_PERC,			KC_CIRC,KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,
-        KC_GRV,KC_EQL,KC_BSLS,KC_QUOT,KC_MINS,                   xxxx, KC_LCBR, KC_RCBR, KC_LBRC,KC_RBRC,
-                                    KC_TRNS,  xxxx,      MO(_SYM), OSM(MOD_LGUI) 
+        KC_GRV,  KC_TILD, KC_BSLS,  KC_PIPE,  xxxx,       xxxx,    KC_PLUS,  KC_EQL,  KC_UNDS,  KC_MINS,
+        KC_1,    KC_2,    KC_3,     KC_4,     KC_5,       KC_6,    KC_7,    KC_8,    KC_9,     KC_0,
+        KC_HOME, KC_PGUP, KC_PGDN,  KC_END,   xxxx,       xxxx,    KC_CTLW,    KC_LBRC, KC_RBRC,  KC_QUOT,
+                                    xxxx,     KC_TRNS,    KC_ENTER, MO(_SYM)
             ),
 
     [_SYM] = LAYOUT(
