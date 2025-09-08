@@ -1,4 +1,3 @@
-
 COMBO_ENABLE = yes
 RGBLIGHT_ENABLE = no        # Keyboard RGB underglow
 
