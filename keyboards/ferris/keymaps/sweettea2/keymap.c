@@ -48,6 +48,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),*/
 };
 
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case CTRL_ALT:
+            if (record->event.pressed) {
+                // When X+C pressed, register ctrl and alt
+                register_mods(MOD_LCTL | MOD_LALT);
+            } else {
+                // When X+C released, unregister ctrl and alt
+                unregister_mods(MOD_LCTL | MOD_LALT);
+            }
+            return false; // Don't process further
+    }
+    return true;
+}
+
 //************************
 // Repeat
 
