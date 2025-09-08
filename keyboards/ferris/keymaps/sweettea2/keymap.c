@@ -5,6 +5,8 @@ enum custom_keycodes {
         CTRL_ALT,
 };
 
+#include "g/keymap_combo.h"
+
 enum layers {
     _BASE = 0,
     _NUM,
