@@ -2,7 +2,7 @@
 
 enum custom_keycodes {
 	REPEAT = SAFE_RANGE,
-	CLEAR,
+        CTRL_ALT,
 };
 
 enum layers {
