@@ -18,6 +18,7 @@ enum layers {
 
 #define KEYCODE_MEM 16
 #define xxxx KC_NO
+#define KC_CTLW LCTL(KC_W)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
