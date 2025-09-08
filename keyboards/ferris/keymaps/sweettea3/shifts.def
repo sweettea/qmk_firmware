@@ -1,0 +1,7 @@
+CSHI(KC_SPC,  KC_UNDS)
+
+// Comma and dot, 9 and 0 swap their shifted things < ( ) >
+CSHI(KC_COMM, KC_LPRN)
+CSHI(KC_DOT,  KC_RPRN)
+CSHI(KC_9,    KC_LT)
+CSHI(KC_0,    KC_GT)
