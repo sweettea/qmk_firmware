@@ -1,4 +1,4 @@
 COMB(esc_comb,		KC_ESC,		KC_Q, KC_W)
 COMB(tab_comb,		KC_TAB,		KC_A, KC_S)
-COMB(enter_comb,	KC_ENTER,	KC_LSFT, KC_SPC)
-COMB(ctrl_ocomb, 	OSM(MOD_LCTL),	KC_BSPC, KC_SPC)
+COMB(enter_comb_2,	KC_ENTER,	KC_S, KC_D, KC_F)
+COMB(ctrlalt,		CTRL_ALT,	KC_X, KC_C)
