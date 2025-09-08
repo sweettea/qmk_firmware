@@ -1,7 +1,5 @@
 #include QMK_KEYBOARD_H
 
-#include "g/keymap_combo.h"
-
 enum custom_keycodes {
 	REPEAT = SAFE_RANGE,
 	CLEAR,
